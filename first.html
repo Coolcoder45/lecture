@@ -4,12 +4,13 @@
       <title>My Homepage!</title>
       <style>
       h1 {
-          color: blue;
+          color: #f6ff00;
           text-align: center;
       }
 
       p {
           color: red;
+          text-align: bottom;
       }
       div {
           background-color: #fa8107;
@@ -17,15 +18,124 @@
           height: 40px;
           margin: 30px;
           padding: 10px;
+          border: 5px dotted red;
+      }
+      .aju {
+        color: white;
+        font-family: cursive;
+        text-align: right;
+      }
+      .ajju {
+        color: #00ff11;
+        font-family: monospace;
+      }
+      #top {
+        background-image: url("back1.jpg");
+        font-size: 20px;
+        text-align: justify;
+        color: white;
+      }
+      #first {
+        background-color: #51ff00;
+          color: red;
+          font-size: 18px;
+          font-style: oblique;
+          text-align: center;
+      }
+      #Information {
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        font-weight: bolder;
+      }
+      .info {
+        background-image: url("back2.jpg");
+        padding: 50px;
+        color: #ff00dd;
+        font-style: italic;
+        font-weight: bolder;
+        font-family: cursive, Arial;
+      }
+      .background {
+        background-image: url("back.jpg");
+      }
+      .img {
+        background: none;
+        text-align: center;
+        border: none;
+      }
+      table {
+          border: 2px solid black;
+          border-collapse: collapse;
+          width: 50%;
+      }
+
+      th, td {
+          border: 1px solid black;
+          padding: 5px;
+          text-align: center;
+      }
+
+      th {
+          background-color: lightgray;
       }
       </style>
     </head>
-    <body>
+    <body class="background">
           <h1>Hello World!!!</h1>
           <div>
           <marquee> <h3>Ajinkya Kulkarni Welcomes You Here</h3></marquee>
           </div>
+          <div id="top">
+          <pre>
+                            I Study in SGGS Institute of <span class="ajju">Engineering</span> and <span class="ajju">Technology</span>
+                                            Vishnupuri , <span class="ajju">NANDED</span>
+
+                            <img src="SGGS.jpg" alt="SGGS" width="50%" height="50%">
+          </pre>
+          </div>
+          <div id="Information">
+            <a href="https://sggs.ac.in">Click here to visit</a>
+          </div>
+          <div id="first">
+            <marquee> I am persuing degree from Electronics and Telecommunication Engineering Department </marquee>
+          </div>
+          <div id="Information">
+            I am basically from Parbhani. You may contact me <a href="mailto:ajinkyacool45@gmail.com">Here</a>. See you soon.
+          </div>
+          <div class="img">
+            <img src="Ajinkya.jpg" alt="Ajinkya" width="25%" height="25%">
+          </div>
+          <div class="info">
+            MY FAMILY
+            <table>
+              <tr>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Year of birth</th>
+                  <th>Relation with me</th>
+              </tr>
+              <tr>
+                  <td>Anant</td>
+                  <td>Kulkarni</td>
+                  <td>1973</td>
+                  <td>father</td>
+              </tr>
+              <tr>
+                  <td>Shubhango</td>
+                  <td>Kulkarni</td>
+                  <td>1976</td>
+                  <td>Mother</td>
+              </tr>
+              <tr>
+                  <td>Gaurav</td>
+                  <td>Kulkarni</td>
+                  <td>2005</td>
+                  <td>Brother</td>
+              </tr>
+            </table>
+          </div>
           <p>The first website published by Ajinkya</p>
+          <p class='aju'>Ajinkya Anantrao Kulkarni</p>
     </body>
 
 </html>
